@@ -7,8 +7,8 @@ MAX_RETRIES = 10  # Amount of Network-Error based request retries
 WD = os.path.dirname(os.path.realpath(__file__))  # Current working Directory
 HTML_DIR = "HTML_Out"  # Storage location for the extracted HTML source
 TEMP_FILE = 'temp.txt'  # A temporary storage file for downloaded text
-FEED_URL = 'http://www.aaronsw.com/2002/feeds/pgessays.rss'  # The Feed URL - Change this to your desired source
-EBOOK_NAME = 'Paul_Graham_Essays.epub'
+FEED_URL = 'http://solarpunkdruid.com/feed/'  # The Feed URL - Change this to your desired source
+EBOOK_NAME = 'SPD.epub'
 # Create HTML storage dir
 if not os.path.exists(HTML_DIR):
     os.mkdir(HTML_DIR)
